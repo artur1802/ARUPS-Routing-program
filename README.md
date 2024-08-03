@@ -1,34 +1,40 @@
-# ARUPS-Routing-program
+ARUPS Routing Program
 
-Assumptions
-•  Each truck can carry a maximum of 16 packages, and the ID number of each package is unique.
+Overview
+The WGUPS Routing Program is designed to determine an efficient route and delivery distribution for the Western Governors University Parcel Service (WGUPS) daily local deliveries. This program ensures that all packages are delivered on time while meeting specific delivery requirements and keeping the total distance traveled under 140 miles for all trucks.
 
-•  The trucks travel at an average speed of 18 miles per hour and have an infinite amount of gas with no need to stop.
+Features
+Custom hash table for managing package data.
+Optimized delivery algorithm for route planning.
+Command-line interface for real-time package status updates.
+Handles dynamic delivery constraints and updates.
 
-•  There are no collisions.
+Technologies Used
+Python
 
-•  Three trucks and two drivers are available for deliveries. Each driver stays with the same truck as long as that truck is in service.
+How to Run
+To run the program, use the following command in your terminal:
 
-•  Drivers leave the hub no earlier than 8:00 a.m., with the truck loaded, and can return to the hub for packages if needed.
+bash
+Copy code
+python main.py
 
-•  The delivery and loading times are instantaneous (i.e., no time passes while at a delivery or when moving packages to a truck at the hub). This time is factored into the calculation of the average speed of the trucks.
+Screenshots
+Initial Truck Load
 
-•  There is up to one special note associated with a package.
+Mid-Morning Status
 
-•  The delivery address for package #9, Third District Juvenile Court, is wrong and will be corrected at 10:20 a.m. WGUPS is aware that the address is incorrect and will be updated at 10:20 a.m. However, WGUPS does not know the correct address (410 S. State St., Salt Lake City, UT 84111) until 10:20 a.m.
+Afternoon Status
 
-•  The distances provided in the “WGUPS Distance Table” are equal regardless of the direction traveled.
+Total Mileage
 
-•  The day ends when all 40 packages have been delivered.
+What I Learned
 
-:Brief Description: Developed an algorithm and software solution to optimize delivery routes for local deliveries, ensuring all packages are delivered on time while keeping the total distance traveled under 140 miles.
-Technologies Used: Python, Data Structures (Hash Tables), Algorithms (Nearest Neighbor Algorithm), datetime library.
+Throughout this project, I gained significant experience in the following areas:
 
-•	Efficient Routing: Implemented the Nearest Neighbor Algorithm to calculate the shortest paths between delivery locations, optimizing the routes for three trucks.
-
-•	Constraints Handling: Designed the system to handle specific delivery constraints and requirements, such as unique package criteria and time-sensitive address corrections.
-
-•	Progress Tracking: Included features to monitor the progress of each truck and package delivery in real-time, providing detailed updates based on various package attributes.
-
-•	Outcome: Successfully created a routing solution that ensures all 40 packages are delivered within the constraints, with a total travel distance under 140 miles.
+Algorithm Design: Developed and implemented a delivery routing algorithm that efficiently meets all delivery constraints.
+Data Structures: Created a custom hash table to manage and retrieve package data efficiently.
+Python Programming: Enhanced my skills in Python, focusing on writing clean, maintainable, and well-documented code.
+Problem-Solving: Addressed and resolved complex problems related to dynamic delivery constraints and real-time status updates.
+Software Development Lifecycle: Followed a structured approach to software development, including requirements analysis, design, implementation, testing, and documentation.
 
