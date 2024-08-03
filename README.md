@@ -1,7 +1,7 @@
 # **AR-UPS Routing Program**
 
 ## **Overview**
-The **Routing Program** is designed to determine an efficient route and delivery distribution for the **AR Service (AR-UPS)** daily local deliveries. This program ensures that all packages are delivered on time while meeting specific delivery requirements and keeping the total distance traveled under 140 miles for all trucks.
+The **Routing Program** is designed to determine an efficient route and delivery distribution for the **AR-UPS** daily local deliveries. This program ensures that all packages are delivered on time while meeting specific delivery requirements and keeping the total distance traveled under 140 miles for all trucks.
 
 ## **Features**
 - **Custom hash table for managing package data.**
