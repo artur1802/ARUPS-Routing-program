@@ -17,7 +17,6 @@ To run the program, use the following command in your terminal:
 
 python main.py
 
-
 ## **Screenshots**
 - **Truck Status at 9:10 am**
   
